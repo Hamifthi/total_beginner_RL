@@ -28,7 +28,11 @@ is definitely the most valuable complimentary code for practicing RL.
 
 Okay so with your files in order, use your terminal shell to CD into the folder with the
 python script in it and then type/paste:
-    python Policy_copy_1.py
+    python policy_copy_1.py
+
+Also, I recommend drawing out a 4x4 square grid so you can follow along with the algorithm
+and see how it's moving between states.
+
 
 The program will run, and you will see all of the data involved in the process of the
 policy evaluation algorithm, so that you can explore the data to better understand

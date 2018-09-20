@@ -6,6 +6,7 @@ from lib.envs.gridworld import GridworldEnv
 pp = pprint.PrettyPrinter(indent=2)
 env = GridworldEnv()
 
+#policy evaluation function from Denny Britz.
 def policy_eval(policy, env, discount_factor=1.0, theta=.00001):
     """
     Evaluate a policy in an environment given a full description of the environment's dynamics.
@@ -33,7 +34,7 @@ def policy_eval(policy, env, discount_factor=1.0, theta=.00001):
         delta = 0
 
         # For each state, perform a "full backup"
-        print("Now we will evaluate v using the Bellman Expectation Equation")
+        print("Now we will evaluate 'v' using the Bellman Expectation Equation")
         print("by looking in each direction and inputing the probability,")
         print("the value of the next state, and the reward in to our equation.\n")
         for s in range(env.nS):
@@ -106,18 +107,19 @@ if __name__ == "__main__":
     random_policy = np.ones([env.nS, env.nA]) / env.nA
     print("This is the random policy at work in GridWorld.")
     print("In other words, for each of the")
-    print("possible 16 states, there is a 25 percent chance the agent")
-    print("will move in 1 of 4 directions, either up (0), right (1), down (2)")
-    print("or left (3)")
-    print("This is shown below as an array of possible actions for each state:")
-    print("and their probability of occuring. \n")
+    print("possible 16 states there is a 25 percent chance the agent")
+    print("will move in 1 of 4 directions; Either up (0), right (1), down (2)")
+    print("or left (3). (If you go into the envs/gridworld.py file, you will see that")
+    print("that the directions are associated with these index numbers.)")
+    print("This is shown below as an array of possible actions for each state")
+    print("and their probability of occuring: \n")
     print(str(random_policy))
 
     print("\n In theory we would run the policy evaluation algorithm")
     print("for as many rounds 'k' as possible until we get convergence.")
     print("However, since this generates a lot of data, we're only going")
     print("to execute 2 'rounds' of calculation, which we've done artificially")
-    print("by telling the algortihm to stop after 2 rounds...\n")
+    print("by telling the algorithm to stop after 2 rounds...\n")
 
     v = policy_eval(random_policy, env)
 
