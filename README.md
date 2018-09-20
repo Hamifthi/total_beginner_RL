@@ -15,15 +15,15 @@ http://incompleteideas.net/book/bookdraft2018jan1.pdf
 
 
 Policy_copy_1.py is meant to be for the absolute beginner. I've added a bunch of
-print statements and code annotations, and manipulated the code so that a user can
-run this script in terminal or from a python shell.
+print statements and code annotations, as well as manipulated the code so that a user can
+run this script in terminal using python 3.
 
 To clarify, this is running a policy evaluation algorithm. It is the first problem, titled 'Policy Evaluation' in Denny Britz's repository here: https://github.com/dennybritz/reinforcement-learning/tree/master/DP/
 
 To run from terminal, first make sure you have cloned my repository so you have a copy of the "lib" file from Denny Britz's Github repository, and that you have Policy_copy_1 saved in the same directory.
 
 It's important to have the lib file from Denny Britz because this has the code that
-creates the GridWorld environment, a 4 x 4 grid which our agent is acting, "learning", in. Also his repository has links to most of the information/tutorials above and his repository
+creates the GridWorld environment, a 4 x 4 grid which our agent is acting, "learning", in. Also his repository has links to most of the information/tutorials above and
 is definitely the most valuable complimentary code for practicing RL.
 
 Okay so with your files in order, use your terminal shell to CD into the folder with the
