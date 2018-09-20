@@ -34,6 +34,6 @@ Also, I recommend drawing out a 4x4 square grid so you can follow along with the
 and see how it's moving between states.
 
 
-The program will run, and you will see all of the data involved in the process of the
-policy evaluation algorithm, so that you can explore the data to better understand
-what exactly is going on, iteratively throughout the whole evaluation.
+The program will run and segment each step so that you can see all of the data involved in the process of the
+policy evaluation algorithm. This will help in exploring the data to better understand
+what exactly is going on iteratively throughout the whole evaluation.
