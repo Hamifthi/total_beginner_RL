@@ -24,7 +24,7 @@ To run from terminal, first make sure you have cloned my repository so you have 
 
 It's important to have the lib file from Denny Britz because this has the code that
 creates the GridWorld environment, a 4 x 4 grid which our agent is acting, "learning", in. Also his repository has links to most of the information/tutorials above and his repository
-is definitely the most valuable information for learning and practicing RL. He's a boss.
+is definitely the most valuable complimentary code for practicing RL.
 
 Okay so with your files in order, use your terminal shell to CD into the folder with the
 python script in it and then type/paste:
