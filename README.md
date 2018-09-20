@@ -18,14 +18,14 @@ Policy_copy_1.py is meant to be for the absolute beginner. I've added a bunch of
 print statements and code annotations, and manipulated the code so that a user can
 run this script in terminal or from a python shell.
 
-To run from terminal, first make sure you have a copy of the "lib" file from Denny Britz's Github repository, and that you have Policy_copy_1 saved in the same
-directory.
+To run from terminal, first make sure you have cloned my repository so you have a copy of the "lib" file from Denny Britz's Github repository, and that you have Policy_copy_1 saved in the same directory.
 
 It's important to have the lib file from Denny Britz because this has the code that
-creates the GridWorld environment, a 4 x 4 grid which our agent is acting, "learning", in.
+creates the GridWorld environment, a 4 x 4 grid which our agent is acting, "learning", in. Also his repository has links to most of the information/tutorials above and his repository
+is definitely the most valuable information for learning and practicing RL. He's a boss.
 
 Okay so with your files in order, use your terminal shell to CD into the folder with the
-python script in it and then type:
+python script in it and then type/paste:
     python Policy_copy_1.py
 
 The program will run, and you will see all of the data involved in the process of the
