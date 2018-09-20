@@ -1,4 +1,4 @@
-Alright so this info is based off of a handful of sources and meant to help with the general task of learning Reinforcement Learning.
+This information is related to the learning resources below and meant to be a practical aid in understanding Reinforcement Learning.
 
 Source 1: Video Lecture series and slides:
 https://www.youtube.com/watch?v=lfHX2hHRMVQ&index=2&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT
